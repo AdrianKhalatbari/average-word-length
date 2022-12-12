@@ -1,5 +1,10 @@
 # average-word-length
 This is an assignment from a Finnish company - This repository is temprorary.</br>
 This program contains two Python files.</br>
-AverageWordLength.py: This file contains the main function of the program.</br>
+<h3>AverageWordLength.py</h3>
+This file contains the main function of the program.</br>
+  In this function, first all characters except numbers and alphabetic letters are removed.</br>
+  In the next part, all the words are separated from each other and placed in a list.</br>
+  In the next part, all spaces are deleted.</br>
+  Finally, all the letters are read and the length of the words is calculated and divided by the number of words.</br>
 TestCases.py: Test cases are written in this file.
