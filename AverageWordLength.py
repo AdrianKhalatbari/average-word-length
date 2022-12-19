@@ -2,7 +2,7 @@ import re
 
 
 def calculateAverage(sentence):
-    sentence = re.sub(r'[^a-zA-Z\d\s]', u' ', sentence, flags=re.UNICODE)
+    sentence = re.sub(r'[^a-zA-Z\d\s\w]', u' ', sentence, flags=re.UNICODE)
     sentence = re.split(' ', sentence)
     sentence = list(filter(None, sentence))
     wordLen = 0

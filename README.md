@@ -11,3 +11,8 @@ This file contains the main function of the program.</br>
 Test cases are written in this file.</br>
 In this file, all written examples are tested in case of questions. The assert method is used to write test cases.</br>
 If the output value of the program does not match the desired number, the program displays the error and the correct value.
+<h3>Metacharacters</h3>
+1-. (dot): ANY ONE character except newline. Same as [^\n] </br>
+2- \d, \D: ANY ONE digit/non-digit character. Digits are [0-9]</br>
+3- \w, \W: ANY ONE word/non-word character. For ASCII, word characters are [a-zA-Z0-9_]</br>
+4- \s, \S: ANY ONE space/non-space character. For ASCII, whitespace characters are [ \n\r\t\f]
