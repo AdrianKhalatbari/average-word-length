@@ -8,6 +8,7 @@ def test_case_1():
     assert calculateAverage(input) == 3.89, "Test_case_1 Should be 3.89"
     print('The average of word length is:', calculateAverage(input))
     print('-------------------------------')
+    print('test')
 
 
 # /////////////////////Test assignment example
